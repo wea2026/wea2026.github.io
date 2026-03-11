@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>我的第一个 GitHub 静态网页</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #35485A;
+            font-family: Arial, sans-serif;
+        }
+        .weather-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, GitHub Pages!</h1>
-    <p>这是用 GitHub Pages 搭建的静态网页 ✨</p>
+    <img src="your-image-url.jpg" alt="Weather Forecast & Widgets" class="weather-image">
 </body>
 </html>
